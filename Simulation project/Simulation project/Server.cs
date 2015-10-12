@@ -13,11 +13,19 @@ namespace Simulation_project
         public int[] serviceTime;
         public float[] cumulativeprobility;
 
-        Server(int per, float[] p, int[] ST, float[] CP)
+        public Server(int per, float[] p, int[] ST, float[] CP)
         {
             this.periorty = per;
             this.probility = p;
             this.serviceTime = ST;
         }
+        public void calcule_cumulativeprobility()
+        {
+            for(int w=0;w<probility.Length;w++)
+            {
+
+            }
+        }
+
     }
 }
