@@ -36,6 +36,7 @@ namespace Simulation_project
             float w = r.Next(0, 100);
             if (w > 0 && w < cumulativeprobility[0] * 100)
             {
+
                 return this.cumulativeprobility[0] * 100;
             }
             for (int a = 1; a < cumulativeprobility.Length - 1; a++)
