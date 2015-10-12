@@ -42,7 +42,6 @@ namespace Simulation_project
             {
                 if (cumulativeprobility[a - 1] < w && w < cumulativeprobility[a] * 100)
                 {
-                    break;
                     return serviceTime[a];
 
                 }
